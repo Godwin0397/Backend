@@ -1,6 +1,12 @@
 # FSD Project
 
-## Environment Needed
+## About
+
+This repository contains the code for backend application for the frontend repository
+
+Backend Application is the RESTFUL API deeloped using Node.js and Express.js. It uses MongoDB as the database and Mongoose as the ODM(Object Data Modeling). 
+
+### Environment Needed
 - VS Code IDE: To Wtite Code
 - Node JS: To Create Server
 - Express JS: To Create Rest API
@@ -37,3 +43,14 @@
 - Integration of frontend and backend
 - Backend deployment: Render
 - Front deployment: Netlify
+
+## Setup
+- Run `npm init` to create a package.json file.
+- Run `npm install` to install the dependencies.
+
+
+
+
+
+
+
