@@ -48,6 +48,17 @@ Backend Application is the RESTFUL API deeloped using Node.js and Express.js. It
 - Run `npm init` to create a package.json file.
 - Run `npm install` to install the dependencies.
 
+## API Endpoints
+
+### Users
+
+- `POST/api/users` - Create all users
+- `GET/api/users` - Get all users
+- `GET/api/users/:id` - Get user by id
+- `PUT/api/users/:id` - Update user by id
+- `DELETE/api/users/:id` - Delete user by id
+- `POST/api/users/login` - Login user
+- `POST/api/users/logout` - Logout user
 
 
 

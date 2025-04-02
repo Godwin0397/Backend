@@ -7,7 +7,7 @@ const app = require("./app");
 mongoose
   .connect(config.mongodb_url)
   .then(() => {
-    console.log("MongoDB connected successfully");
+    console.log("MongoDB connected successfully...");
     // starting the server
     app.listen(config.port, () => {
       console.log(`Server is running on port ${config.port}`);
