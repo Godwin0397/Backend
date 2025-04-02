@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Godwin0397/Backend#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
+    "express": "^5.1.0",
     "mongoose": "^8.13.1"
   }
 }
