@@ -21,7 +21,7 @@ app.use(express.json());
 
 // use cors middleware
 app.use(cors({
-  origin: 'http://localhost:3001', // replace with your client URL
+  origin: '*', // replace with your client URL
   credentials: true,
 }));
 
