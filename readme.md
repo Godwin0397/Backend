@@ -48,6 +48,44 @@ Backend Application is the RESTFUL API deeloped using Node.js and Express.js. It
 - Run `npm init` to create a package.json file.
 - Run `npm install` to install the dependencies.
 
+## Application
+
+Job Portal Application
+
+### Features
+
+-[x] User Registration
+-[x] User Login
+
+-[] Admin Dashboard
+    -[] Add a company
+    -[] Update a company
+    -[] Delete a company
+    -[] Get all companies
+    -[] Get company by ID
+
+    -[] Add a job
+    -[] Update a job
+    -[] Delete a job
+    -[] Get all job
+    -[] Get job by ID
+
+-[] User Dashboard
+    -[] View all jobs
+    -[] Apply for a job
+    -[] View applied jobs
+    -[] View applied job by id
+    -[] Update applied job
+    -[] Revoke applied job
+
+-[] User Profile
+    -[] Get user profile
+    -[] Update user profile
+    -[] Delete user profile
+
+-[] Logout
+
+
 ## API Endpoints
 
 ### Users
