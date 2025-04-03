@@ -34,6 +34,7 @@ const companyController = {
 
             // save the company to the database    
             const savedCompany = await newCompany.save();
+            
             // return the saved company
             res.status(201).json({ message: "Company Created Successfully", company: savedCompany });
         } catch (error) {

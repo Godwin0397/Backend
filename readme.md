@@ -57,33 +57,30 @@ Job Portal Application
 -[x] User Registration
 -[x] User Login
 
--[] Admin Dashboard
-    -[] Add a company
-    -[] Update a company
-    -[] Delete a company
-    -[] Get all companies
-    -[] Get company by ID
-
-    -[] Add a job
-    -[] Update a job
-    -[] Delete a job
-    -[] Get all job
-    -[] Get job by ID
+-[x] Admin Dashboard
+    -[x] Add a company
+    -[x] Update a company
+    -[x] Delete a company
+    -[x] Get all companies
+    -[x] Get company by ID
+    -[x] Add a job
+    -[x] Update a job
+    -[x] Delete a job
+    -[x] Get all job
+    -[x] Get job by ID
 
 -[] User Dashboard
-    -[] View all jobs
-    -[] Apply for a job
-    -[] View applied jobs
-    -[] View applied job by id
-    -[] Update applied job
-    -[] Revoke applied job
+    -[x] View all jobs
+    -[x] View jobs by Id
+    -[x] Apply for a job
+    -[x] View applied jobs
+    
+-[x] User Profile
+    -[x] Get user profile
+    -[x] Update user profile
+    -[x] Delete user profile
 
--[] User Profile
-    -[] Get user profile
-    -[] Update user profile
-    -[] Delete user profile
-
--[] Logout
+-[x] Logout
 
 
 ## API Endpoints

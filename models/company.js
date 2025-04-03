@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const job = require('./job');
 
 // define the company schema
 const companySchema = new mongoose.Schema({
@@ -17,6 +18,12 @@ const companySchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "User"
     },
+    jobs: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Job"
+        }
+    ]
 });
 
 // export the company model
