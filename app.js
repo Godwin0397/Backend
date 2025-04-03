@@ -7,6 +7,8 @@ const morgan = require('morgan');
 
 // import the user routes
 const userRouter = require('./routes/userRoutes');
+const companyRouter = require('./routes/companyRoutes');
+const jobRouter = require('./routes/jobRoutes');
 
 const app = express();
 
@@ -32,5 +34,7 @@ app.use(morgan('dev'));
 
 // define the endpoint
 app.use('/api/users', userRouter);
+app.use('/api/companies', companyRouter);
+app.use('/api/jobs', jobRouter);
 
 module.exports = app;
