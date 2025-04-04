@@ -51,7 +51,7 @@ const usercontroller = {
             
             // check if the user doesn't exist, return error
             if (!user) {
-                return res.status(400).json({ message: "Invalid username" });
+                return res.status(400).json({ message: "Invalid Credentials" });
             }
 
             // compare the password with the hashed password
@@ -59,7 +59,7 @@ const usercontroller = {
             
             // check if the password doesn't match, return error
             if (!isMatch) {
-                return res.status(400).json({ message: "Invalid password" });
+                return res.status(400).json({ message: "Invalid Credentials" });
             }
 
             // create a token for the user
