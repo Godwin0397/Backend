@@ -19,9 +19,20 @@ app.get('/', (req, res) => {
 // use express json middleware
 app.use(express.json());
 
+const allowedOrigins = ['http://localhost:3001', 'http://localhost:5173', 'https://backend-s4v5.onrender.com', 'https://your-production-site.com'];
+
+
 // use cors middleware
 app.use(cors({
-  origin: '*', // replace with your client URL
+  origin: function(origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      // Allow the origin if it matches one in the allowedOrigins array
+      callback(null, true);
+    } else {
+      // Deny the request if the origin is not allowed
+      callback(new Error('Not allowed by CORS'), false);
+    }
+  },
   credentials: true,
 }));
 
